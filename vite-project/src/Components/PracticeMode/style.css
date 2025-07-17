@@ -1,0 +1,29 @@
+.words-board{
+    display: flex;
+
+}
+.word-box{
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+.key-board{
+    background-color: lightgray;
+    width: 450px;
+}
+.key{
+    margin: 5px;
+}
+.key-row1{
+    margin-left: 20px;
+}
+
+.key-row2{
+    margin-left: 40px;
+}
+.key-row3{
+    margin-left: 60px;
+}
