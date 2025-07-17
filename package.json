@@ -1,0 +1,20 @@
+{
+  "name": "wordle",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Ongeri123/wordle#readme",
+  "bugs": {
+    "url": "https://github.com/Ongeri123/wordle/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ongeri123/wordle.git"
+  },
+  "license": "ISC",
+  "author": "Newton Eric Weldon Bright",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
