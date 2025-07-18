@@ -1,0 +1,16 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.game-nav{
+    display: flex;
+    gap: 50px;
+    margin-left: 40px;
+}
+
+.settings-nav{
+    display: flex;
+    gap: 50px;
+    margin-right: 20px;
+}
