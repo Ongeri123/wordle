@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import Keyboard from './Components/PracticeMode/Keyboard'
-import Wordsboard from './Components/PracticeMode/Wordsboard'
-import PracticeHeader from './Components/PracticeMode/Practiceheader'
+import Navigation from './Components/Navigation/index.jsx'
+import PracticeMode from './Components/PracticeMode/index.jsx'
 
 
 function App() {
@@ -10,9 +9,10 @@ function App() {
   return (
     <>
       <div>
-        <Keyboard />
-        <Wordsboard />
-        <PracticeHeader/>
+        <Navigation />
+        <PracticeMode/>
+        
+        
       </div>
     </>
   )
