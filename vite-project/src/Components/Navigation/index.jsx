@@ -1,5 +1,5 @@
 import Dailybutton from "./Dailybutton";
-import Helpbutton from "./Help";
+import Helpbutton from "./Helpbutton";
 import Practicebutton from "./Practicebutton";
 import Settingsbutton from "./Settings";
 import Statisticsbutton from "./Statistics";
@@ -11,7 +11,7 @@ import './nav.css'
 
 function Navigation() {
     return (
-        <div className="navigation" style ={{marginBottom:'30px'}}>
+        <div className="navigation" style ={{marginBottom:'30px', marginTop:'30px'}}>
             <div className="game-nav">
                 <Dailybutton />
                 <Practicebutton />
